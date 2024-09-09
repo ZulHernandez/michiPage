@@ -1,0 +1,377 @@
+@mixin josefin-sans($width, $style, $size) {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: $width;
+    font-style: $style;
+    font-size: $size;
+}
+
+@mixin heroDiv {
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+@mixin heroSizeLand {
+    height: 50vw;
+}
+
+@mixin heroSizePort {
+    height: 100vw;
+}
+
+@mixin imageButton($top, $width, $left, $x, $y, $font, $Stop, $Sleft, $Sdeg) {
+    top: $top;
+    width: $width;
+    left: $left;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+    & img {
+        width: 100%;
+        filter: drop-shadow($x $y 5px #e283fa);
+    }
+    &:hover {
+        transform: scale(1.15);
+        cursor: pointer;
+        animation: none;
+        & span {
+            filter: opacity(1);
+        }
+    }
+    & span {
+        width: 200%;
+        color: rgba(255, 255, 255, 1);
+        filter: opacity(0.75);
+        @include josefin-sans(500, normal, $font);
+        text-transform: uppercase;
+        position: absolute;
+        text-align: center;
+        text-shadow:
+            0px 0px 10px #ff95ff,
+            0px 0px 10px #ffffff;
+        -webkit-text-stroke: 0.25vw #fe00ff;
+        paint-order: stroke fill;
+        top: $Stop;
+        left: $Sleft;
+        transform: rotate($Sdeg);
+    }
+}
+
+body {
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+@keyframes botones {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+$capas: (
+    27: (
+        Fondo,
+        center 63%,
+        cover
+    ),
+    26: (
+        Wave-contraste,
+        top center,
+        cover
+    ),
+    25: (
+        Waves-fondo,
+        top center,
+        cover
+    ),
+    24: (
+        Brillo_contraste,
+        center 63%,
+        cover
+    ),
+    23: (
+        Escritorio,
+        center 63%,
+        cover
+    ),
+    22: (
+        Sketch-blanco,
+        center 63%,
+        contain
+    ),
+    21: (
+        Periferico,
+        center 63%,
+        contain
+    ),
+    20: (
+        Sombre-Wachi,
+        0% 63%,
+        contain
+    ),
+    19: (
+        Wachi,
+        0% 63%,
+        contain
+    ),
+    18: (
+        Sombras-Lapicera,
+        100% 63%,
+        contain
+    ),
+    17: (
+        Lapicera,
+        100% 63%,
+        contain
+    ),
+    16: (
+        Sombras-Borrador,
+        0% 63%,
+        contain
+    ),
+    15: (
+        Borrador,
+        0% 63%,
+        contain
+    ),
+    14: (
+        Sombras-Pinceles,
+        0% 63%,
+        contain
+    ),
+    13: (
+        Pinceles,
+        0% 63%,
+        contain
+    ),
+    12: (
+        Cable,
+        center 63%,
+        contain
+    ),
+    11: (
+        Sombra-Mouse,
+        center 63%,
+        contain
+    ),
+    10: (
+        Mouse,
+        center 63%,
+        contain
+    ),
+    9: (
+        Sombras-Manos,
+        center 63%,
+        contain
+    ),
+    8: (
+        Michi,
+        center 63%,
+        contain
+    ),
+    1071: (
+        Bloom,
+        0% 63%,
+        contain
+    ),
+    1073: (
+        Bloom,
+        100% 63%,
+        contain
+    ),
+    1011: (
+        Burbujas,
+        0% 0%,
+        contain
+    ),
+    1012: (
+        Burbujas,
+        100% 0%,
+        contain
+    )
+);
+
+@each $key, $value in $capas {
+    @if $key < 10 {
+        .capa-000#{$key} {
+            @include heroDiv;
+            background-image: url("../assets/imgs/illustration/escritorio_michi_final_000#{$key}_#{nth($value, 1)}.png");
+            background-position: #{nth($value, 2)};
+            background-size: #{nth($value, 3)};
+        }
+    } @else {
+        .capa-00#{$key} {
+            @include heroDiv;
+            background-image: url("../assets/imgs/illustration/escritorio_michi_final_00#{$key}_#{nth($value, 1)}.png");
+            background-position: #{nth($value, 2)};
+            background-size: #{nth($value, 3)};
+        }
+    }
+}
+
+.capa-vignnete {
+    -webkit-box-shadow: inset 0px -300px 135px -74px rgb(0, 0, 0);
+    -moz-box-shadow: inset 0px -300px 135px -74px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px -200px 135px -10px rgba(0, 0, 0, 1);
+    position: absolute;
+    @include heroDiv;
+}
+
+.capa-001011,
+.capa-001012,
+.capa-001071 {
+    filter: saturate(5);
+    mix-blend-mode: screen;
+    animation: capa-0025 4s infinite ease-in;
+}
+
+.capa-001073 {
+    filter: saturate(5);
+    mix-blend-mode: screen;
+}
+
+.capa-0022 {
+    mix-blend-mode: screen;
+    animation: capa-0025 2s infinite ease-in;
+}
+
+@keyframes capa-0022 {
+    0% {
+        opacity: 0.25;
+        filter: saturate(5) brightness(1);
+    }
+    50% {
+        opacity: 0.75;
+        filter: saturate(5) brightness(5);
+    }
+    100% {
+        opacity: 0.25;
+        filter: saturate(5) brightness(1);
+    }
+}
+
+.capa-0023,
+.capa-0024 {
+    background-repeat: repeat-x;
+}
+
+.capa-0025 {
+    filter: saturate(2);
+    mix-blend-mode: screen;
+    animation: capa-0025 3s infinite ease-in;
+}
+
+@keyframes capa-0025 {
+    0% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 0.25;
+    }
+}
+
+.capa-0026 {
+    animation: capa-0026 3s infinite ease-in;
+}
+
+@keyframes capa-0026 {
+    0% {
+        opacity: 0.75;
+    }
+    50% {
+        opacity: 0.25;
+    }
+    100% {
+        opacity: 0.75;
+    }
+}
+
+.capa-0027 {
+    position: relative;
+}
+
+@media only screen and (orientation: portrait) {
+    @each $key, $value in $capas {
+        @if $key < 10 {
+            .capa-000#{$key} {
+                height: 100vw;
+            }
+        } @else {
+            .capa-00#{$key} {
+                height: 100vw;
+            }
+        }
+    }
+
+    .capa-vignnete {
+        height: 100vw;
+    }
+
+    .capa-0006 {
+        @include imageButton(25vw, 15%, 68%, -0.5vw, 0.5vw, 2vw, -15%, -32%, 26deg);
+    }
+
+    .capa-0005 {
+        @include imageButton(41vw, 15%, 75%, -0.5vw, -0.5vw, 2vw, 45%, -70%, -70deg);
+    }
+
+    .capa-0004 {
+        @include imageButton(20vw, 14%, 17%, 0.5vw, 0.5vw, 2vw, 20%, -95%, -55deg);
+    }
+
+    .capa-0003 {
+        @include imageButton(4vw, 9%, 46%, -0.5vw, 0.5vw, 2vw, 40%, 10%, 80deg);
+    }
+
+    .capa-0002 {
+        @include imageButton(42vw, 13%, 14%, 0.5vw, 0.5vw, 2vw, 80%, -10%, -40deg);
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    @each $key, $value in $capas {
+        @if $key < 10 {
+            .capa-000#{$key} {
+                height: 50vw;
+            }
+        } @else {
+            .capa-00#{$key} {
+                height: 50vw;
+            }
+        }
+    }
+
+    .capa-vignnete {
+        height: 50vw;
+    }
+
+    .capa-0006 {
+        @include imageButton(16vw, 10%, 62%, -0.3vw, 0vw, 1.5vw, -15%, -32%, 26deg);
+    }
+
+    .capa-0005 {
+        @include imageButton(19vw, 9%, 75%, -0.3vw, 0.3vw, 1.5vw, 45%, -70%, -70deg);
+    }
+
+    .capa-0004 {
+        @include imageButton(3vw, 10%, 28%, 0.3vw, 0.3vw, 1.5vw, 20%, -95%, -55deg);
+    }
+
+    .capa-0003 {
+        @include imageButton(2vw, 6%, 70%, -0.3vw, 0.3vw, 1.5vw, 40%, 10%, 80deg);
+    }
+
+    .capa-0002 {
+        @include imageButton(18vw, 11%, 18%, 0.3vw, 0.3vw, 1.5vw, 80%, -10%, -40deg);
+    }
+}

@@ -1,0 +1,857 @@
+body {
+  background-color: black;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@keyframes botones {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.capa-0027 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0027_Fondo.png");
+  background-position: center 63%;
+  background-size: cover;
+}
+
+.capa-0026 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0026_Wave-contraste.png");
+  background-position: top center;
+  background-size: cover;
+}
+
+.capa-0025 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0025_Waves-fondo.png");
+  background-position: top center;
+  background-size: cover;
+}
+
+.capa-0024 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0024_Brillo_contraste.png");
+  background-position: center 63%;
+  background-size: cover;
+}
+
+.capa-0023 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0023_Escritorio.png");
+  background-position: center 63%;
+  background-size: cover;
+}
+
+.capa-0022 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0022_Sketch-blanco.png");
+  background-position: center 63%;
+  background-size: contain;
+}
+
+.capa-0021 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0021_Periferico.png");
+  background-position: center 63%;
+  background-size: contain;
+}
+
+.capa-0020 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0020_Sombre-Wachi.png");
+  background-position: 0% 63%;
+  background-size: contain;
+}
+
+.capa-0019 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0019_Wachi.png");
+  background-position: 0% 63%;
+  background-size: contain;
+}
+
+.capa-0018 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0018_Sombras-Lapicera.png");
+  background-position: 100% 63%;
+  background-size: contain;
+}
+
+.capa-0017 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0017_Lapicera.png");
+  background-position: 100% 63%;
+  background-size: contain;
+}
+
+.capa-0016 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0016_Sombras-Borrador.png");
+  background-position: 0% 63%;
+  background-size: contain;
+}
+
+.capa-0015 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0015_Borrador.png");
+  background-position: 0% 63%;
+  background-size: contain;
+}
+
+.capa-0014 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0014_Sombras-Pinceles.png");
+  background-position: 0% 63%;
+  background-size: contain;
+}
+
+.capa-0013 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0013_Pinceles.png");
+  background-position: 0% 63%;
+  background-size: contain;
+}
+
+.capa-0012 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0012_Cable.png");
+  background-position: center 63%;
+  background-size: contain;
+}
+
+.capa-0011 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0011_Sombra-Mouse.png");
+  background-position: center 63%;
+  background-size: contain;
+}
+
+.capa-0010 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0010_Mouse.png");
+  background-position: center 63%;
+  background-size: contain;
+}
+
+.capa-0009 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0009_Sombras-Manos.png");
+  background-position: center 63%;
+  background-size: contain;
+}
+
+.capa-0008 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0008_Michi.png");
+  background-position: center 63%;
+  background-size: contain;
+}
+
+.capa-001071 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_001071_Bloom.png");
+  background-position: 0% 63%;
+  background-size: contain;
+}
+
+.capa-001073 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_001073_Bloom.png");
+  background-position: 100% 63%;
+  background-size: contain;
+}
+
+.capa-001011 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_001011_Burbujas.png");
+  background-position: 0% 0%;
+  background-size: contain;
+}
+
+.capa-001012 {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/imgs/illustration/escritorio_michi_final_001012_Burbujas.png");
+  background-position: 100% 0%;
+  background-size: contain;
+}
+
+.capa-vignnete {
+  box-shadow: inset 0px -200px 135px -10px rgb(0, 0, 0);
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.capa-001011,
+.capa-001012,
+.capa-001071 {
+  filter: saturate(5);
+  mix-blend-mode: screen;
+  animation: capa-0025 4s infinite ease-in;
+}
+
+.capa-001073 {
+  filter: saturate(5);
+  mix-blend-mode: screen;
+}
+
+.capa-0022 {
+  mix-blend-mode: screen;
+  animation: capa-0025 2s infinite ease-in;
+}
+
+@keyframes capa-0022 {
+  0% {
+    opacity: 0.25;
+    filter: saturate(5) brightness(1);
+  }
+  50% {
+    opacity: 0.75;
+    filter: saturate(5) brightness(5);
+  }
+  100% {
+    opacity: 0.25;
+    filter: saturate(5) brightness(1);
+  }
+}
+.capa-0023,
+.capa-0024 {
+  background-repeat: repeat-x;
+}
+
+.capa-0025 {
+  filter: saturate(2);
+  mix-blend-mode: screen;
+  animation: capa-0025 3s infinite ease-in;
+}
+
+@keyframes capa-0025 {
+  0% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0.25;
+  }
+}
+.capa-0026 {
+  animation: capa-0026 3s infinite ease-in;
+}
+
+@keyframes capa-0026 {
+  0% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 0.75;
+  }
+}
+.capa-0027 {
+  position: relative;
+}
+
+@media only screen and (orientation: portrait) {
+  .capa-0027 {
+    height: 100vw;
+  }
+  .capa-0026 {
+    height: 100vw;
+  }
+  .capa-0025 {
+    height: 100vw;
+  }
+  .capa-0024 {
+    height: 100vw;
+  }
+  .capa-0023 {
+    height: 100vw;
+  }
+  .capa-0022 {
+    height: 100vw;
+  }
+  .capa-0021 {
+    height: 100vw;
+  }
+  .capa-0020 {
+    height: 100vw;
+  }
+  .capa-0019 {
+    height: 100vw;
+  }
+  .capa-0018 {
+    height: 100vw;
+  }
+  .capa-0017 {
+    height: 100vw;
+  }
+  .capa-0016 {
+    height: 100vw;
+  }
+  .capa-0015 {
+    height: 100vw;
+  }
+  .capa-0014 {
+    height: 100vw;
+  }
+  .capa-0013 {
+    height: 100vw;
+  }
+  .capa-0012 {
+    height: 100vw;
+  }
+  .capa-0011 {
+    height: 100vw;
+  }
+  .capa-0010 {
+    height: 100vw;
+  }
+  .capa-0009 {
+    height: 100vw;
+  }
+  .capa-0008 {
+    height: 100vw;
+  }
+  .capa-001071 {
+    height: 100vw;
+  }
+  .capa-001073 {
+    height: 100vw;
+  }
+  .capa-001011 {
+    height: 100vw;
+  }
+  .capa-001012 {
+    height: 100vw;
+  }
+  .capa-vignnete {
+    height: 100vw;
+  }
+  .capa-0006 {
+    top: 25vw;
+    width: 15%;
+    left: 68%;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+  }
+  .capa-0006 img {
+    width: 100%;
+    filter: drop-shadow(-0.5vw 0.5vw 5px #e283fa);
+  }
+  .capa-0006:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    animation: none;
+  }
+  .capa-0006:hover span {
+    filter: opacity(1);
+  }
+  .capa-0006 span {
+    width: 200%;
+    color: rgb(255, 255, 255);
+    filter: opacity(0.75);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vw;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff95ff, 0px 0px 10px #ffffff;
+    -webkit-text-stroke: 0.25vw #fe00ff;
+    paint-order: stroke fill;
+    top: -15%;
+    left: -32%;
+    transform: rotate(26deg);
+  }
+  .capa-0005 {
+    top: 41vw;
+    width: 15%;
+    left: 75%;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+  }
+  .capa-0005 img {
+    width: 100%;
+    filter: drop-shadow(-0.5vw -0.5vw 5px #e283fa);
+  }
+  .capa-0005:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    animation: none;
+  }
+  .capa-0005:hover span {
+    filter: opacity(1);
+  }
+  .capa-0005 span {
+    width: 200%;
+    color: rgb(255, 255, 255);
+    filter: opacity(0.75);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vw;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff95ff, 0px 0px 10px #ffffff;
+    -webkit-text-stroke: 0.25vw #fe00ff;
+    paint-order: stroke fill;
+    top: 45%;
+    left: -70%;
+    transform: rotate(-70deg);
+  }
+  .capa-0004 {
+    top: 20vw;
+    width: 14%;
+    left: 17%;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+  }
+  .capa-0004 img {
+    width: 100%;
+    filter: drop-shadow(0.5vw 0.5vw 5px #e283fa);
+  }
+  .capa-0004:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    animation: none;
+  }
+  .capa-0004:hover span {
+    filter: opacity(1);
+  }
+  .capa-0004 span {
+    width: 200%;
+    color: rgb(255, 255, 255);
+    filter: opacity(0.75);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vw;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff95ff, 0px 0px 10px #ffffff;
+    -webkit-text-stroke: 0.25vw #fe00ff;
+    paint-order: stroke fill;
+    top: 20%;
+    left: -95%;
+    transform: rotate(-55deg);
+  }
+  .capa-0003 {
+    top: 4vw;
+    width: 9%;
+    left: 46%;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+  }
+  .capa-0003 img {
+    width: 100%;
+    filter: drop-shadow(-0.5vw 0.5vw 5px #e283fa);
+  }
+  .capa-0003:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    animation: none;
+  }
+  .capa-0003:hover span {
+    filter: opacity(1);
+  }
+  .capa-0003 span {
+    width: 200%;
+    color: rgb(255, 255, 255);
+    filter: opacity(0.75);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vw;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff95ff, 0px 0px 10px #ffffff;
+    -webkit-text-stroke: 0.25vw #fe00ff;
+    paint-order: stroke fill;
+    top: 40%;
+    left: 10%;
+    transform: rotate(80deg);
+  }
+  .capa-0002 {
+    top: 42vw;
+    width: 13%;
+    left: 14%;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+  }
+  .capa-0002 img {
+    width: 100%;
+    filter: drop-shadow(0.5vw 0.5vw 5px #e283fa);
+  }
+  .capa-0002:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    animation: none;
+  }
+  .capa-0002:hover span {
+    filter: opacity(1);
+  }
+  .capa-0002 span {
+    width: 200%;
+    color: rgb(255, 255, 255);
+    filter: opacity(0.75);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vw;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff95ff, 0px 0px 10px #ffffff;
+    -webkit-text-stroke: 0.25vw #fe00ff;
+    paint-order: stroke fill;
+    top: 80%;
+    left: -10%;
+    transform: rotate(-40deg);
+  }
+}
+@media only screen and (orientation: landscape) {
+  .capa-0027 {
+    height: 50vw;
+  }
+  .capa-0026 {
+    height: 50vw;
+  }
+  .capa-0025 {
+    height: 50vw;
+  }
+  .capa-0024 {
+    height: 50vw;
+  }
+  .capa-0023 {
+    height: 50vw;
+  }
+  .capa-0022 {
+    height: 50vw;
+  }
+  .capa-0021 {
+    height: 50vw;
+  }
+  .capa-0020 {
+    height: 50vw;
+  }
+  .capa-0019 {
+    height: 50vw;
+  }
+  .capa-0018 {
+    height: 50vw;
+  }
+  .capa-0017 {
+    height: 50vw;
+  }
+  .capa-0016 {
+    height: 50vw;
+  }
+  .capa-0015 {
+    height: 50vw;
+  }
+  .capa-0014 {
+    height: 50vw;
+  }
+  .capa-0013 {
+    height: 50vw;
+  }
+  .capa-0012 {
+    height: 50vw;
+  }
+  .capa-0011 {
+    height: 50vw;
+  }
+  .capa-0010 {
+    height: 50vw;
+  }
+  .capa-0009 {
+    height: 50vw;
+  }
+  .capa-0008 {
+    height: 50vw;
+  }
+  .capa-001071 {
+    height: 50vw;
+  }
+  .capa-001073 {
+    height: 50vw;
+  }
+  .capa-001011 {
+    height: 50vw;
+  }
+  .capa-001012 {
+    height: 50vw;
+  }
+  .capa-vignnete {
+    height: 50vw;
+  }
+  .capa-0006 {
+    top: 16vw;
+    width: 10%;
+    left: 62%;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+  }
+  .capa-0006 img {
+    width: 100%;
+    filter: drop-shadow(-0.3vw 0vw 5px #e283fa);
+  }
+  .capa-0006:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    animation: none;
+  }
+  .capa-0006:hover span {
+    filter: opacity(1);
+  }
+  .capa-0006 span {
+    width: 200%;
+    color: rgb(255, 255, 255);
+    filter: opacity(0.75);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff95ff, 0px 0px 10px #ffffff;
+    -webkit-text-stroke: 0.25vw #fe00ff;
+    paint-order: stroke fill;
+    top: -15%;
+    left: -32%;
+    transform: rotate(26deg);
+  }
+  .capa-0005 {
+    top: 19vw;
+    width: 9%;
+    left: 75%;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+  }
+  .capa-0005 img {
+    width: 100%;
+    filter: drop-shadow(-0.3vw 0.3vw 5px #e283fa);
+  }
+  .capa-0005:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    animation: none;
+  }
+  .capa-0005:hover span {
+    filter: opacity(1);
+  }
+  .capa-0005 span {
+    width: 200%;
+    color: rgb(255, 255, 255);
+    filter: opacity(0.75);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff95ff, 0px 0px 10px #ffffff;
+    -webkit-text-stroke: 0.25vw #fe00ff;
+    paint-order: stroke fill;
+    top: 45%;
+    left: -70%;
+    transform: rotate(-70deg);
+  }
+  .capa-0004 {
+    top: 3vw;
+    width: 10%;
+    left: 28%;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+  }
+  .capa-0004 img {
+    width: 100%;
+    filter: drop-shadow(0.3vw 0.3vw 5px #e283fa);
+  }
+  .capa-0004:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    animation: none;
+  }
+  .capa-0004:hover span {
+    filter: opacity(1);
+  }
+  .capa-0004 span {
+    width: 200%;
+    color: rgb(255, 255, 255);
+    filter: opacity(0.75);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff95ff, 0px 0px 10px #ffffff;
+    -webkit-text-stroke: 0.25vw #fe00ff;
+    paint-order: stroke fill;
+    top: 20%;
+    left: -95%;
+    transform: rotate(-55deg);
+  }
+  .capa-0003 {
+    top: 2vw;
+    width: 6%;
+    left: 70%;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+  }
+  .capa-0003 img {
+    width: 100%;
+    filter: drop-shadow(-0.3vw 0.3vw 5px #e283fa);
+  }
+  .capa-0003:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    animation: none;
+  }
+  .capa-0003:hover span {
+    filter: opacity(1);
+  }
+  .capa-0003 span {
+    width: 200%;
+    color: rgb(255, 255, 255);
+    filter: opacity(0.75);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff95ff, 0px 0px 10px #ffffff;
+    -webkit-text-stroke: 0.25vw #fe00ff;
+    paint-order: stroke fill;
+    top: 40%;
+    left: 10%;
+    transform: rotate(80deg);
+  }
+  .capa-0002 {
+    top: 18vw;
+    width: 11%;
+    left: 18%;
+    position: absolute;
+    transition: all ease-out 0.25s;
+    animation: botones 2s infinite ease-in;
+  }
+  .capa-0002 img {
+    width: 100%;
+    filter: drop-shadow(0.3vw 0.3vw 5px #e283fa);
+  }
+  .capa-0002:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    animation: none;
+  }
+  .capa-0002:hover span {
+    filter: opacity(1);
+  }
+  .capa-0002 span {
+    width: 200%;
+    color: rgb(255, 255, 255);
+    filter: opacity(0.75);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff95ff, 0px 0px 10px #ffffff;
+    -webkit-text-stroke: 0.25vw #fe00ff;
+    paint-order: stroke fill;
+    top: 80%;
+    left: -10%;
+    transform: rotate(-40deg);
+  }
+}/*# sourceMappingURL=home.css.map */
