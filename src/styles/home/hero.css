@@ -3,6 +3,10 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
+#hero {
+  filter: hue-rotate(360deg);
+}
+
 @keyframes botones {
   0% {
     transform: scale(1);
@@ -18,7 +22,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0027_Fondo.png");
+  background-image: url("../../assets/imgs/illustration/capa_0027_Fondo.png");
   background-position: center 63%;
   background-size: cover;
 }
@@ -27,7 +31,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0026_Wave-contraste.png");
+  background-image: url("../../assets/imgs/illustration/capa_0026_Wave-contraste.png");
   background-position: top center;
   background-size: cover;
 }
@@ -36,7 +40,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0025_Waves-fondo.png");
+  background-image: url("../../assets/imgs/illustration/capa_0025_Waves-fondo.png");
   background-position: top center;
   background-size: cover;
 }
@@ -45,7 +49,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0024_Brillo_contraste.png");
+  background-image: url("../../assets/imgs/illustration/capa_0024_Brillo_contraste.png");
   background-position: center 63%;
   background-size: cover;
 }
@@ -54,7 +58,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0023_Escritorio.png");
+  background-image: url("../../assets/imgs/illustration/capa_0023_Escritorio.png");
   background-position: center 63%;
   background-size: cover;
 }
@@ -63,7 +67,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0022_Sketch-blanco.png");
+  background-image: url("../../assets/imgs/illustration/capa_0022_Sketch-blanco.png");
   background-position: center 63%;
   background-size: contain;
 }
@@ -72,7 +76,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0021_Periferico.png");
+  background-image: url("../../assets/imgs/illustration/capa_0021_Periferico.png");
   background-position: center 63%;
   background-size: contain;
 }
@@ -81,7 +85,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0020_Sombre-Wachi.png");
+  background-image: url("../../assets/imgs/illustration/capa_0020_Sombre-Wachi.png");
   background-position: 0% 63%;
   background-size: contain;
 }
@@ -90,7 +94,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0019_Wachi.png");
+  background-image: url("../../assets/imgs/illustration/capa_0019_Wachi.png");
   background-position: 0% 63%;
   background-size: contain;
 }
@@ -99,7 +103,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0018_Sombras-Lapicera.png");
+  background-image: url("../../assets/imgs/illustration/capa_0018_Sombras-Lapicera.png");
   background-position: 100% 63%;
   background-size: contain;
 }
@@ -108,7 +112,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0017_Lapicera.png");
+  background-image: url("../../assets/imgs/illustration/capa_0017_Lapicera.png");
   background-position: 100% 63%;
   background-size: contain;
 }
@@ -117,7 +121,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0016_Sombras-Borrador.png");
+  background-image: url("../../assets/imgs/illustration/capa_0016_Sombras-Borrador.png");
   background-position: 0% 63%;
   background-size: contain;
 }
@@ -126,7 +130,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0015_Borrador.png");
+  background-image: url("../../assets/imgs/illustration/capa_0015_Borrador.png");
   background-position: 0% 63%;
   background-size: contain;
 }
@@ -135,7 +139,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0014_Sombras-Pinceles.png");
+  background-image: url("../../assets/imgs/illustration/capa_0014_Sombras-Pinceles.png");
   background-position: 0% 63%;
   background-size: contain;
 }
@@ -144,7 +148,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0013_Pinceles.png");
+  background-image: url("../../assets/imgs/illustration/capa_0013_Pinceles.png");
   background-position: 0% 63%;
   background-size: contain;
 }
@@ -153,7 +157,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0012_Cable.png");
+  background-image: url("../../assets/imgs/illustration/capa_0012_Cable.png");
   background-position: center 63%;
   background-size: contain;
 }
@@ -162,7 +166,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0011_Sombra-Mouse.png");
+  background-image: url("../../assets/imgs/illustration/capa_0011_Sombra-Mouse.png");
   background-position: center 63%;
   background-size: contain;
 }
@@ -171,7 +175,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0010_Mouse.png");
+  background-image: url("../../assets/imgs/illustration/capa_0010_Mouse.png");
   background-position: center 63%;
   background-size: contain;
 }
@@ -180,7 +184,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0009_Sombras-Manos.png");
+  background-image: url("../../assets/imgs/illustration/capa_0009_Sombras-Manos.png");
   background-position: center 63%;
   background-size: contain;
 }
@@ -189,7 +193,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_0008_Michi.png");
+  background-image: url("../../assets/imgs/illustration/capa_0008_Michi.png");
   background-position: center 63%;
   background-size: contain;
 }
@@ -198,7 +202,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_001071_Bloom.png");
+  background-image: url("../../assets/imgs/illustration/capa_001071_Bloom.png");
   background-position: 0% 63%;
   background-size: contain;
 }
@@ -207,7 +211,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_001073_Bloom.png");
+  background-image: url("../../assets/imgs/illustration/capa_001073_Bloom.png");
   background-position: 100% 63%;
   background-size: contain;
 }
@@ -216,7 +220,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_001011_Burbujas.png");
+  background-image: url("../../assets/imgs/illustration/capa_001011_Burbujas.png");
   background-position: 0% 0%;
   background-size: contain;
 }
@@ -225,7 +229,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  background-image: url("../assets/imgs/illustration/escritorio_michi_final_001012_Burbujas.png");
+  background-image: url("../../assets/imgs/illustration/capa_001012_Burbujas.png");
   background-position: 100% 0%;
   background-size: contain;
 }
@@ -309,6 +313,29 @@ body {
 }
 .capa-0027 {
   position: relative;
+}
+
+#button_down {
+  position: absolute;
+  animation: botones 2s infinite ease-in;
+}
+#button_down #arrow_down {
+  width: 100%;
+  height: 100%;
+}
+#button_down path {
+  fill: white;
+  stroke: white;
+}
+#button_down:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+  animation: none;
+  filter: drop-shadow(0px 0px 4px #ff95ff) drop-shadow(0px 0px 1px #ffffff);
+}
+#button_down:hover path {
+  fill: white;
+  stroke: #fccffc;
 }
 
 @media only screen and (orientation: portrait) {
@@ -582,6 +609,12 @@ body {
     left: -10%;
     transform: rotate(-40deg);
   }
+  #button_down {
+    left: calc(50% - 3.5vw);
+    width: 7vw;
+    height: 7vw;
+    bottom: calc(0% + 7vw);
+  }
 }
 @media only screen and (orientation: landscape) {
   .capa-0027 {
@@ -854,4 +887,10 @@ body {
     left: -10%;
     transform: rotate(-40deg);
   }
-}/*# sourceMappingURL=home.css.map */
+  #button_down {
+    left: calc(50% - 2vw);
+    width: 4vw;
+    height: 4vw;
+    bottom: calc(0% + 4vw);
+  }
+}/*# sourceMappingURL=hero.css.map */

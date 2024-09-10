@@ -1,10 +1,12 @@
 import CoHero from "../components/home/CoHero";
+import CoAbout from "../components/home/CoAbout";
 
 const RoHome = () => {
 	return (
 		<>
 			<CoHero />
-			<p style={{color: "white"}}>RoHome works</p>
+			<CoAbout />
+			
 		</>
 	);
 };

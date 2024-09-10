@@ -63,6 +63,10 @@ body {
     font-family: "Josefin Sans", sans-serif;
 }
 
+#hero {
+    filter: hue-rotate(360deg);
+}
+
 @keyframes botones {
     0% {
         transform: scale(1);
@@ -202,14 +206,14 @@ $capas: (
     @if $key < 10 {
         .capa-000#{$key} {
             @include heroDiv;
-            background-image: url("../assets/imgs/illustration/escritorio_michi_final_000#{$key}_#{nth($value, 1)}.png");
+            background-image: url("../../assets/imgs/illustration/capa_000#{$key}_#{nth($value, 1)}.png");
             background-position: #{nth($value, 2)};
             background-size: #{nth($value, 3)};
         }
     } @else {
         .capa-00#{$key} {
             @include heroDiv;
-            background-image: url("../assets/imgs/illustration/escritorio_michi_final_00#{$key}_#{nth($value, 1)}.png");
+            background-image: url("../../assets/imgs/illustration/capa_00#{$key}_#{nth($value, 1)}.png");
             background-position: #{nth($value, 2)};
             background-size: #{nth($value, 3)};
         }
@@ -300,6 +304,31 @@ $capas: (
     position: relative;
 }
 
+#button_down {
+    position: absolute;
+    animation: botones 2s infinite ease-in;
+
+    #arrow_down {
+        width: 100%;
+        height: 100%;
+    }
+    path {
+        fill: white;
+        stroke: white;
+    }
+
+    &:hover {
+        transform: scale(1.15);
+        cursor: pointer;
+        animation: none;
+        filter: drop-shadow(0px 0px 4px #ff95ff) drop-shadow(0px 0px 1px #ffffff);
+        path {
+            fill: white;
+            stroke: #fccffc;
+        }
+    }
+}
+
 @media only screen and (orientation: portrait) {
     @each $key, $value in $capas {
         @if $key < 10 {
@@ -312,7 +341,6 @@ $capas: (
             }
         }
     }
-
     .capa-vignnete {
         height: 100vw;
     }
@@ -335,6 +363,13 @@ $capas: (
 
     .capa-0002 {
         @include imageButton(42vw, 13%, 14%, 0.5vw, 0.5vw, 2vw, 80%, -10%, -40deg);
+    }
+
+    #button_down {
+        left: calc(50% - 3.5vw);
+        width: 7vw;
+        height: 7vw;
+        bottom: calc(0% + 7vw);
     }
 }
 
@@ -373,5 +408,12 @@ $capas: (
 
     .capa-0002 {
         @include imageButton(18vw, 11%, 18%, 0.3vw, 0.3vw, 1.5vw, 80%, -10%, -40deg);
+    }
+
+    #button_down {
+        left: calc(50% - 2vw);
+        width: 4vw;
+        height: 4vw;
+        bottom: calc(0% + 4vw);
     }
 }
